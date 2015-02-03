@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 定义我们用的字符串变量,这样比固化到程序中灵活性更高 -->
+<resources>
+
+    <string name="hello">My Easy Notes</string>
+    <string name="app_name">EasyNote</string>
+    <string name="app_widget2x2">EasyNote 2x2</string>
+    <string name="app_widget4x4">EasyNote 4x4</string>
+    <!-- 比较通用的字段 -->
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="delete">Delete</string>
+    <string name="delete_note">Confirm to delete this notes?</string>
+    <string name="add_shortcut_to_home">Add shortcut to Home</string>
+    <!-- 主界面的菜单 -->
+    <string name="new_folder">New Folder</string>
+    <string name="move_to_folder">Move into folder</string>
+    
+    
+    
+    <string name="set_password">Set password</string>
+    <string name="about">About</string>
+    <!-- 文件夹界面下的菜单 -->
+    <string name="edit_folder_title">Edit folder name</string>
+    <string name="move_out_of_folder">Move out of folder</string>
+    <!-- 便签界面下的菜单 -->
+    <string name="alarm_time">Set alarm</string>
+    <string name="change_font_size">Change font size</string>
+    <string name="share_sms_or_email">Share</string>
+    <string name="share_with_sms">SMS</string>
+    <string name="share_with_email">Email</string>
+    <!-- Dialog中使用到的字符串 -->
+    <string name="set_alarm_date">Set alarm date</string>
+    <string name="set_alarm_time">Set alarm time</string>
+    <!-- Button组件显示 的字符串 -->
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    <!-- 输出TXT文本需要用到的字符串 -->
+    
+    
+    <!-- 备份数据(XML文件)失败时用到的字符串 -->
+    
+    <!-- 密码相关 -->
+    <string name="change_password">Change password</string>
+    <string name="clear_password">Clear password</string>
+    <string name="password">Password</string>
+    <string name="confirm_psd">Confirm</string>
+    <string name="change_password_failed">Change password failed!</string>
+    <string name="change_password_succ">Change password successfully!</string>
+    <string name="set_password_succ">Set password succesfully!</string>
+    <string name="set_password_failde">Set password failed!</string>
+    <!-- 从SDCard还原 -->
+    <string name="help_dialog_text">      
+    <i>EasyNote,方便从现在开始！</i>       
+    \n    
+    \n
+    <i>下面是程序功能的简要介绍:</i>
+    \n
+   	<i>支持AppWidget:2X2与4X4两种大小,可以自定义AppWidget的背景颜色 </i>
+   	\n
+	<i>简单的手势支持 </i>
+	\n
+	<i>支持密码保护 </i>
+	\n
+	<i>创建文件夹,分类管理</i> 
+	\n
+	<i>支持闹钟 </i>
+	\n
+	<i>便签支持不同的背景颜色 </i>   
+   </string>
+    <string name="close">关闭</string>
+    
+
+</resources>

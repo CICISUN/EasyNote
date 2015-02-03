@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal" >
+
+    <!-- 设置便签的背景颜色时弹出的Dialog的布局.android:background可以使用selector -->
+
+    <ImageButton
+        android:id="@+id/pink"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/item_light_pink" />
+
+    <ImageButton
+        android:id="@+id/green"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/item_light_green" />
+
+    <ImageButton
+        android:id="@+id/yellow"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/item_light_yellow" />
+
+    <ImageButton
+        android:id="@+id/white"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/item_light_white" />
+    
+       <ImageButton
+        android:id="@+id/smallstar"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_small_star"
+        android:paddingRight="3dp"  />
+   
+    
+     <ImageButton
+        android:id="@+id/smallheart"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_small_heart" 
+        android:paddingRight="3dp" />
+    
+    
+    
+    
+    <ImageButton
+        android:id="@+id/smallcolor"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_small_color" 
+        android:paddingRight="3dp" />
+    
+
+   
+    
+    <ImageButton
+        android:id="@+id/smallsummer"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_small_summer" 
+        android:paddingRight="3dp" />
+    
+     
+
+</LinearLayout>
